@@ -1,0 +1,168 @@
+ /* Mobile */
+ .modal-content {
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.modal-header {
+  background-color: #f8f9fa;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom: none;
+}
+.modal-title {
+  font-weight: 600;
+  color: #333;
+}
+.modal-body {
+  padding: 2rem;
+}
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #eee;
+}
+.detail-label {
+  font-weight: 600;
+  color: #555;
+}
+.detail-value {
+  color: #333;
+}
+.status-badge {
+  padding: 0.35rem 0.75rem;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.status-pending { background-color: #fff3cd; color: #856404; }
+.status-approved { background-color: #d4edda; color: #155724; }
+.status-rejected { background-color: #f8d7da; color: #721c24; }
+.document-preview {
+  margin-top: 1rem;
+  text-align: center;
+}
+.document-preview img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.modal-footer {
+  border-top: none;
+  padding: 1rem 2rem;
+}
+ @media (max-width: 768px) {
+    .table thead {
+      display: none;
+    }
+
+    .table, .table tbody, .table tr, .table td {
+      display: block;
+      width: 100%;
+    }
+
+    .table tr {
+      margin-bottom: 1rem;
+      border: 1px solid #dee2e6;
+      border-radius: 0.5rem;
+      padding: 0.5rem;
+      background-color: #fff;
+    }
+
+    .table td {
+      text-align: right;
+      padding-left: 50%;
+      position: relative;
+      
+    }
+
+    .table td::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 1rem;
+      top: 0.5rem;
+      font-weight: bold;
+      white-space: nowrap;
+      text-align: left;
+    
+    }
+    .table td[data-label="Actions"] {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+  }
+
+    .table td[data-label="Actions"] {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      align-items: stretch;
+      text-align: center;
+      padding-left: 0;
+      
+    }
+    .table td[data-label="Actions"]::before {
+    position: static;
+    display: block;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+    .table td[data-label="Actions"] .btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  }
+    @media (max-width: 576px) {
+      .table-responsive {
+        font-size: 0.9rem; 
+      }
+
+      .btn-sm {
+        font-size: 0.75rem; 
+        padding: 0.25rem 0.5rem;
+      }
+
+      .modal-dialog {
+        margin: 0.5rem; 
+      }
+
+      .modal-body p {
+        font-size: 0.9rem; 
+      }
+    }
+
+    .table th, .table td {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+
+    @media (min-width: 576px) {
+      .modal-dialog {
+        max-width: 50%; 
+      }
+    }
+    @media (max-width: 902px) {
+        .sidebar {
+          transform: translateX(-100%); 
+          width: 100%;
+          max-width: 250px;
+          height: 100vh;
+          border-right: none;
+        }
+  
+        .sidebar.show {
+          transform: translateX(0); 
+        }
+  
+        .content {
+          margin-left: 0;
+        }
+  
+        .navbar-brand {
+          font-size: 1.5rem !important;
+        }
+      }

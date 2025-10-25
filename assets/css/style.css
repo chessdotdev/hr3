@@ -1,0 +1,13 @@
+
+#togglePassword {
+    outline: none;
+    box-shadow: none;
+    border: black;       
+    background: none;    
+    cursor: pointer;      
+}
+.form-control:focus {
+    border-color: #000000;
+    outline: 0;
+    box-shadow: none;
+  }
