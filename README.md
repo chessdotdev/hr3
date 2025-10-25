@@ -1,6 +1,6 @@
 # HR3 Setup Guide
 
-This guide will help you set up the HR3 project, including configuring the Go backend, setting up MySQL as the database, and importing the initial data.
+This guide will help you set up the HR3 project, setting up MySQL as the database, and importing the initial data.
 
 ---
 
