@@ -41,11 +41,6 @@ Follow these steps to import the database into MySQL using phpMyAdmin:
 6. Open the **Import** tab in the top menu.  
 7. Click the **Choose File** button and select the **`hr3.sql`** file from your project folder.  
 8. Scroll down and click **Go** to start the import process.  
-9. Once the import is complete, you’ll see all the tables and data under the **`hr3`** database. 
-```
+9. Once the import is complete, you’ll see all the tables and data under the **`hr3`** database.
 
 
----
-
-
-```
