@@ -7,7 +7,7 @@ This guide will help you set up the HR3 project, setting up MySQL as the databas
 ## 1. Prerequisites
 
 - **MySQL** (8.0+)
-- Access to the `hr3.sql` file (provided in the repository or by your admin)
+- Access to the `hr3.sql` file ( **backup** folder)
 
 ---
 ## 2. Clone the Repository
