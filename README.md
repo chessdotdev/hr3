@@ -23,9 +23,6 @@ git clone https://github.com/chessdotdev/hr3.git
 If you don't have MySQL installed, [download it here](https://dev.mysql.com/downloads/mysql/) and follow the installation instructions for your operating system.
 
 
-```
-
-```
 
 ### b. Import the `hr3.sql` Schema
 
